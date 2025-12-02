@@ -15,7 +15,7 @@ const Loginsignup = () => {
                     <Image source={require('../../assets/images/logo.png')} style={{width :33 ,height : 101}}/>
                     <Text className="font-semibold mx-2 text-5xl color-[#4CAD73]">Healthy</Text>
                 </View>
-                <Link href={"/(authentication)/login"} className="bg-[#4CAD73] p-2 rounded-2xl">
+                <Link href={"/(authentication)/login"} className=" bg-[#4CAD73] p-2 rounded-2xl">
                     <Text className="text-[#FFFFFF] text-xl h-[50px] text-center">Log In</Text>
                 </Link>
                 <Link href={"/(authentication)/signup"} className="border border-[#4CAD73] p-2 rounded-2xl mt-5">
@@ -29,7 +29,7 @@ const Loginsignup = () => {
 
                 {/*google and facebook sign in */}
                 <Link href="/signup" asChild>
-                    <TouchableOpacity className="flex-row items-center justify-center border border-gray-400 p-2 rounded-2xl mt-5">
+                    <TouchableOpacity className="w-full flex-row items-center justify-center border border-gray-400 p-2 rounded-2xl mt-5">
                         <Image
                             source={require("../../assets/images/google.png")}
                             style={{

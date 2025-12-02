@@ -11,6 +11,11 @@ const RootLayout = () => {
             name="(authentication)"
             options={{headerShown : false}}
         ></Stack.Screen>
+        <Stack.Screen
+            name="(tabs)"
+            options={{headerShown : false}}
+        >
+        </Stack.Screen>
     </Stack>
 }
 export default RootLayout
