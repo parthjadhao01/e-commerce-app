@@ -117,7 +117,7 @@ const Index = () => {
                                       className="bg-green-100 w-[48%] h-[150px] rounded-xl mb-2 flex justify-between">
                                     <Text className="text-green-600 text-xl p-3">{cat.name}</Text>
                                     {/* Dummy image */}
-                                    <View className="h-[80px] w-full bg-gray-300 rounded-b-xl"></View>
+                                    <Image source={{uri : cat.image}} className="h-[80px] w-full bg-gray-300 rounded-b-xl"></Image>
                                 </View>
                             ))}
                         </View>
@@ -138,7 +138,7 @@ const Index = () => {
                                     className="w-[224px] h-[104px] bg-[#F5F5F5] rounded-lg flex justify-center items-center mr-3 mt-2 shadow-sm"
                                 >
                                     <View className="flex flex-row items-center">
-                                        <View className="w-[80px] h-[80px] bg-gray-300 rounded-lg" />
+                                        <Image source={{uri : p.thumbnail}} className="w-[80px] h-[80px] bg-gray-300 rounded-lg" />
                                         <View className="ml-3">
                                             <Text className="text-lg">{p.title}</Text>
                                             <Text className="text-md text-gray-400">{p.sku}</Text>

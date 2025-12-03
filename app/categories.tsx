@@ -84,7 +84,7 @@ const Categories = () => {
 
                                 <TouchableOpacity>
                                     <View className="w-[60px] h-[60px] bg-green-100 rounded-2xl mb-2 flex justify-center items-center">
-                                        <View className="w-[44px] h-[32px] bg-gray-300 rounded-md" />
+                                        <Image source={{uri : cat.image}} className="w-[44px] h-[32px] bg-gray-300 rounded-md" />
                                     </View>
                                 </TouchableOpacity>
 
@@ -113,7 +113,7 @@ const Categories = () => {
                                 className="w-[48%] bg-[#F5F5F5] rounded-xl mb-4"
                                 onPress={() => router.push(`/productdetail/${p._id}`)}
                             >
-                                <View className="w-full h-[120px] bg-gray-300 rounded-t-xl" />
+                                <Image source={{uri : p.thumbnail}} className="w-full h-[120px] bg-gray-300 rounded-t-xl" />
 
                                 <View className="p-4">
                                     <Text className="text-lg">{p.title}</Text>
