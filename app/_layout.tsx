@@ -16,6 +16,16 @@ const RootLayout = () => {
             options={{headerShown : false}}
         >
         </Stack.Screen>
+        <Stack.Screen
+            name="categories"
+            options={{headerShown : false}}
+        >
+        </Stack.Screen>
+        <Stack.Screen
+            name="productdetail/[id]"
+            options={{headerShown : false}}
+        >
+        </Stack.Screen>
     </Stack>
 }
 export default RootLayout
